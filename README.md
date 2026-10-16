@@ -12,6 +12,22 @@ Mercury is built for people who need to audit apps continuously, find new eviden
 
 ---
 
+## macOS installation
+
+Release builds for macOS are in **Releases** on this repo. 
+Builds are not code-signed yet, so a Gatekeeper prompt is expected.
+
+1. Open the DMG and drag Mercury Desktop into Applications.
+2. If macOS blocks it, paste this in Terminal:
+
+```bash
+xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Desktop.app"
+```
+
+Windows and Linux versions coming soon.
+
+---
+
 ## What you can do
 
 ### Follow an app across versions
@@ -49,22 +65,6 @@ Save interactive HTML graphs and offline views so you can share and save your fi
 5. Export if you need something you can share or keep.
 
 Mercury does **not** ship or redistribute APKs. You resolve and download packages yourself (or analyze local samples you already have). Store terms, local law, the samples you choose to analyse (and any associated risks), and how you use this software are your responsibility.
-
----
-
-## Downloads
-
-Release builds for macOS can be found in **Releases** on this repo.
-
-Builds are not code-signed at the moment, so macOS and Windows security prompts are expected.
-
-**macOS:** open the `.dmg`, then the app. If Gatekeeper blocks it, run this command to allow Mercury to open, then try again:
-
-```bash
-xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Desktop.app"
-```
-
-Windows and Linux versions coming soon.
 
 ---
 
