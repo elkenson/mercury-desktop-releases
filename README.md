@@ -54,19 +54,17 @@ Mercury does **not** ship or redistribute APKs. You resolve and download package
 
 ## Downloads
 
-Release builds for macOS and Windows can be found in **Releases** on this repo.
+Release builds for macOS can be found in **Releases** on this repo.
 
 Builds are not code-signed at the moment, so macOS and Windows security prompts are expected.
 
 **macOS:** open the `.dmg`, then the app. If Gatekeeper blocks it, run this command to allow Mercury to open, then try again:
 
 ```bash
-xattr -cr "/Applications/Mercury Desktop.app"
+xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Desktop.app"
 ```
 
-Or right-click → **Open** the first time.
-
-**Windows:** run the installer. SmartScreen or App Control may warn — **More info → Run anyway** (or allow the app) is normal for now.
+Windows and Linux versions coming soon.
 
 ---
 
