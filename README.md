@@ -6,13 +6,11 @@
   <img src="./mercury.png" alt="Mercury" width="900" />
 </p>
 
-Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
-
-Mercury is built for people who need to audit apps continuously, find new evidence, and get a clear view of an APK's footprint without digging through every version by hand. It’s also meant for people from other disciplines who can complement their work by seeing technical evidence — brought together in one installable package, without having to learn cybersecurity tools day to day.
-
----
-
 ## macOS installation
+
+**macOS beta:** download the installable `.dmg` from Releases. (Not the source code .zip files)”.
+
+**[Download Mercury Desktop for macOS](https://github.com/elkenson/mercury-desktop-releases/releases/download/v0.1.0-beta.1/Mercury.Desktop-0.1.0-beta-arm64.dmg)**
 
 Release builds for macOS are in **Releases** on this repo. 
 Builds are not code-signed yet, so a Gatekeeper prompt is expected.
@@ -25,6 +23,12 @@ xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Des
 ```
 
 Windows and Linux versions coming soon.
+
+---
+
+Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
+
+Mercury is built for people who need to audit apps continuously, find new evidence, and get a clear view of an APK's footprint without digging through every version by hand. It’s also meant for people from other disciplines who can complement their work by seeing technical evidence — brought together in one installable package, without having to learn cybersecurity tools day to day.
 
 ---
 
