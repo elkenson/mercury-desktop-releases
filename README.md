@@ -1,4 +1,4 @@
-# Mercury
+# Mercury Desktop - analyze Android apps over time
 
 **by Elkenson**
 
