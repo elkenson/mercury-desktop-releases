@@ -51,7 +51,7 @@ Coverage of Mercury is expanding beyond plain Java/Kotlin apps. Flutter apps are
 ### Spot churn between releases
 See small changes in what was added or removed from one version to the next. When a new domain, permission, or library appears, or disappears, it can be easy to spot in granular churn view.
 
-### Export what you found
+### Export your findings
 Save interactive HTML graphs and offline views so you can share and save your findings. You can also copy the current chart as plain text, formatted for pasting straight into an AI chat.
 
 ---
