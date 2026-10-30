@@ -1,4 +1,13 @@
-# Mercury Desktop: analyze and visualize apps over time
+  <h1>Mercury Desktop: analyze and visualize apps over time</h1>
+  <p>
+    <a href="https://elkenson.com">
+      <img alt="Website" src="https://img.shields.io/badge/Website-elkenson.com-2563eb?style=for-the-badge">
+    </a>
+    <a href="https://github.com/elkenson">
+      <img alt="GitHub" src="https://img.shields.io/badge/GitHub-elkenson-111827?style=for-the-badge&logo=github">
+    </a>
+  </p>
+</div>
 
 Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
 
@@ -25,8 +34,6 @@ xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Des
 ```
 
 Windows and Linux versions coming soon.
-
----
 
 ## How Mercury works
 
@@ -63,8 +70,6 @@ See small changes in what was added or removed from one version to the next. Whe
 
 ### Export your findings
 Save interactive HTML graphs and offline views so you can share and save your findings. You can also copy the current chart as plain text, formatted for pasting straight into an AI chat.
-
----
 
 ## Notes
 
