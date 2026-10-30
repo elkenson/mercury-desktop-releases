@@ -1,6 +1,8 @@
-# Mercury Desktop - analyze Android apps over time
+# Mercury Desktop: Analyze and Visualize Android apps over time
 
-**by Elkenson**
+Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
+
+Mercury is built for people who need to audit apps continuously, find new evidence, and get a clear view of an APK's footprint without digging through every version by hand. It’s also meant for people from other disciplines who can complement their work by seeing technical evidence — brought together in one installable package, without having to learn cybersecurity tools day to day.
 
 <p align="center">
   <img src="./mercury.png" alt="Mercury" width="900" />
@@ -8,27 +10,21 @@
 
 ## macOS installation
 
-**macOS beta:** everything required is already bundled into the installable `.dmg` available from Releases. (Not the source code .zip files).
+**macOS beta:** everything required is already bundled into the installable `.dmg`.
 
 **[Download Mercury Desktop for macOS](https://github.com/elkenson/mercury-desktop-releases/releases/download/v0.1.0-beta.1/Mercury.Desktop-0.1.0-beta-arm64.dmg)**
 
-Releases for macOS are in **Releases** on this repo. 
+Releases for macOS are in **Releases** on this repo (not the source code .zip files). 
 The builds are not code-signed yet, so a Gatekeeper prompt is expected.
 
 1. Open the DMG and drag Mercury Desktop into Applications.
-2. If macOS blocks it ("App is damaged and can't be opened"), paste this in Terminal:
+2. If macOS blocks it ("App is damaged and can't be opened"), open a Terminal window and paste this command:
 
 ```bash
 xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Desktop.app"
 ```
 
 Windows and Linux versions coming soon.
-
----
-
-Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
-
-Mercury is built for people who need to audit apps continuously, find new evidence, and get a clear view of an APK's footprint without digging through every version by hand. It’s also meant for people from other disciplines who can complement their work by seeing technical evidence — brought together in one installable package, without having to learn cybersecurity tools day to day.
 
 ---
 
