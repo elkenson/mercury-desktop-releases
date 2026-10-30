@@ -8,15 +8,15 @@
 
 ## macOS installation
 
-**macOS beta:** download the installable `.dmg` from Releases. (Not the source code .zip files)”.
+**macOS beta:** everything required is already bundled into the installable `.dmg` available from Releases. (Not the source code .zip files).
 
 **[Download Mercury Desktop for macOS](https://github.com/elkenson/mercury-desktop-releases/releases/download/v0.1.0-beta.1/Mercury.Desktop-0.1.0-beta-arm64.dmg)**
 
-Release builds for macOS are in **Releases** on this repo. 
-Builds are not code-signed yet, so a Gatekeeper prompt is expected.
+Releases for macOS are in **Releases** on this repo. 
+The builds are not code-signed yet, so a Gatekeeper prompt is expected.
 
 1. Open the DMG and drag Mercury Desktop into Applications.
-2. If macOS blocks it, paste this in Terminal:
+2. If macOS blocks it ("App is damaged and can't be opened"), paste this in Terminal:
 
 ```bash
 xattr -cr "/Applications/Mercury Desktop.app" && open "/Applications/Mercury Desktop.app"
@@ -32,7 +32,17 @@ Mercury is built for people who need to audit apps continuously, find new eviden
 
 ---
 
-## What you can do
+## How Mercury works
+
+1. Search for an app (or enter a package name you already know).
+2. Choose versions available from a repository listing, or add your own APK samples to Mercury.
+3. Analyze — Mercury scans for a variety of technical traits and indicators
+4. Explore the graph, features, and churn tabs, or try the compare panel when you have more than one package.
+5. Export if you need something you can share or keep.
+
+Mercury does **not** ship or redistribute APKs. You resolve and download packages yourself (or analyze local samples you already have). Store terms, local law, the samples you choose to analyze (and any associated risks), and how you use this software are your responsibility.
+
+## Features
 
 ### Follow an app across versions
 Pick an app, select the versions you care about, and see its history unfold. Traits appear in a chronological heatmap. You can look at connectvitiy, permissions, SDKs, and native libraries all in the same way. Cross reference traits with company/operators.
@@ -57,18 +67,6 @@ See small changes in what was added or removed from one version to the next. Whe
 
 ### Export your findings
 Save interactive HTML graphs and offline views so you can share and save your findings. You can also copy the current chart as plain text, formatted for pasting straight into an AI chat.
-
----
-
-## How Mercury works
-
-1. Search for an app (or enter a package name you already know).
-2. Choose versions available from a repository listing, or add your own APK samples to Mercury.
-3. Analyze — Mercury scans for a variety of technical traits and indicators
-4. Explore the graph, features, and churn tabs, or try the compare panel when you have more than one package.
-5. Export if you need something you can share or keep.
-
-Mercury does **not** ship or redistribute APKs. You resolve and download packages yourself (or analyze local samples you already have). Store terms, local law, the samples you choose to analyse (and any associated risks), and how you use this software are your responsibility.
 
 ---
 
