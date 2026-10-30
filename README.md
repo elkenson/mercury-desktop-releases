@@ -1,4 +1,4 @@
-# Mercury Desktop: Analyze and Visualize Android apps over time
+# Mercury Desktop: analyze and visualize apps over time
 
 Mercury is an desktop app for analysing and auditing Android packages over time. Pull versions from public repositories (or drop in APK samples you already have), then see a variety of features and how that picture changes release to release with chronological visualisations.
 
